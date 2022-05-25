@@ -1,0 +1,123 @@
+
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .conteneur {
+    background: linear-gradient( #00FF00,#FF0000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .boite {
+    background: white;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+  }
+  .imag {
+    max-width: 300px;
+    display: flex;
+    justify-content: r;
+  }
+  .boite img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  .conteneur .boite .text {
+    margin-left: 50px;
+    max-width: 400px;       
+  }
+  .conteneur .boite .text h1 {
+    font-family: "Sigmar One", cursive;
+    font-size: 40px;
+    color: #444141;
+  }
+  .conteneur .boite .text h2 {
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: #c3c3c3;
+  }
+  .conteneur .boite .text ul {
+    list-style: none;
+    color: #444141;
+  }
+  .conteneur .boite .text .contacte li {
+    margin-bottom: 10px;
+  }
+  .contacte li i {
+    color: #00FF00;
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  .conteneur .boite .text .social {
+    display: flex;
+    margin-top: 30px;
+  }
+  .conteneur .boite .text .social li {
+    margin-right: 15px;
+  }
+  .conteneur .boite .text .social li i {
+    color: #00c9ff;
+    font-size: 30px;
+    transition: 0.3s;
+    opacity: 0.33;
+  }
+  .conteneur .boite .text .social li i:hover {
+    color: lime;
+    opacity: 1;
+    transition: 0.3s;
+    transform: scale(1.3);
+  }
+/*
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom, #00C9FF, #92FE9D);
+    } 
+h1  
+    {
+        font-family: 'Sigmar One', cursive;
+    font-size: 2em;
+    }
+h2  
+    {
+        font-family: 'Sigmar One', cursive;
+    font-size: 1.5em;
+    color: lightgray;
+    }
+p
+    {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+    }
+div
+    {
+        background: white ;
+        border-radius: 10%;
+        width : 35%;
+        height : 50%;
+        margin : 2.5em;
+    }
+aside 
+    {
+        text-align: justify;
+        margin-left: 20em;
+        
+    }
+    img
+    {
+        width : 50%;
+        height : 50%;
+        max-width: 200px;
+        border-radius: 10%;
+        margin-left: 1.5em;
+        margin : 1.5em;
+    }
+    */
